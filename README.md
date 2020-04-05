@@ -1,6 +1,5 @@
 You have to program a UNIX command interpreter.
-The interpreter is expected to display a prompt ( $> , for example) and then wait for you to write a command
-line, which must be validated by a newline.
+The interpreter is expected to display a prompt ( $> , for example) and then wait for you to write a command line, which must be validated by a new line.
 The prompt must be displayed again only after the command execution.
 Only basic command lines are expected to executed; no pipes, redirections or any other advanced features.
 The executables should be those found in the path, as indicated in the PATH variable.
@@ -9,3 +8,6 @@ Errors must be dealt with and must display the appropriate message on the error 
 You must correctly handle the PATH and the environment (by copying and restoring the initial env).
 You must implement the following builtins: cd, setenv, unsetenv, env, exit.
 Your env builtin hasn’t to take any argument. Your unsetenv builtin hasn’t to support the “*” wildcard.
+
+
+The reference shell is TCSH
